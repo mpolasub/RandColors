@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/windowViewId"
     tools:context=".MainActivity">
 
     <Button
@@ -11,7 +12,7 @@
         android:layout_width="213dp"
         android:layout_height="66dp"
         android:background="@drawable/vecteezy_glossy_buttons_clipart_design_illustration_9379725_506"
-        android:text="new color"
+        android:text="@string/new_color"
         android:textColor="#DFDFDF"
         android:textSize="16sp"
         android:textStyle="bold"
